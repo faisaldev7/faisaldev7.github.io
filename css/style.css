@@ -177,7 +177,7 @@ p {
 /* home section styles
 /* ========================================== */
 #home {
-    background: url('home-bg.jpg') 50% 0 repeat-y fixed;
+    background: url('/images/home-bg.jpg') 50% 0 repeat-y fixed;
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
@@ -217,7 +217,7 @@ p {
 /* Counter section styles
 /* ========================================== */
 #counter {
-    background: url('counter-bg.jpg') 50% 0 repeat-y fixed;
+    background: url('/images/counter-bg.jpg') 50% 0 repeat-y fixed;
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center;
@@ -285,7 +285,7 @@ p {
 /* contact section styles
 /* ========================================== */
 #contact {
-    background: url('contact-bg.jpg') 50% 0 repeat-y fixed;
+    background: url('/images/contact-bg.jpg') 50% 0 repeat-y fixed;
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
