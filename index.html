@@ -261,7 +261,12 @@ percentWeight: 'normal'
                     <!-- Contact form section
 			================================================== -->
                     <div class="col-md-8 col-sm-8 wow fadeIn" data-wow-delay="0.6s">
-                        <form action="//formspree.io/faisaldev7@gmail.com" method="POST">
+                        <form id="contact_form" method="POST">
+			       <div class="col-lg-12">
+                                <p id='thanks' style='display: none;'>
+                                    Thanks for contacting us, we'll be in touch soon!
+                                </p>
+                               </div>
                             <div class="col-md-6 col-sm-6">
                                 <input type="text" class="form-control" placeholder="Name" name="name" required>
                                 <input type="email" class="form-control" placeholder="Email" name="_replyto" required>
@@ -276,6 +281,24 @@ percentWeight: 'normal'
                             </div>
                         </form>
                     </div>
+			<script>
+				$('form#contact_form').validate({
+  messages: { },
+  submitHandler: function(form) {
+    $.ajax({
+      url: "//formspree.io/faisaldev7@gmail.com",
+      method: "POST",
+      data: $(form).serialize(),
+      dataType: "json",
+      success: function(data) {
+          $("form#contact_form :input").prop("disabled", true);
+          $('#thanks').show();
+      }
+    });
+    return false;
+  }
+});
+			</script>
                     <!-- Contact detail section
 			================================================== -->
                     <div class="col-md-4 col-sm-4">
