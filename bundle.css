@@ -4776,7 +4776,10 @@ select[multiple].input-group-sm>.form-control,select[multiple].input-group-sm>.i
     .navbar-inverse .navbar-nav .open .dropdown-menu .divider {
         background-color: #080808
     }
-
+     .logo>h3
+    {
+    color:black;    
+    }
     .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
         color: #9d9d9d
     }
