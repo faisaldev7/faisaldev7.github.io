@@ -25,6 +25,14 @@
   00
   Common Styles
 */
+
+#hireme {
+    background: url('contact-bg.jpg') 50% 0 repeat-y fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    color: #ffffff !important;
+}
 html, body {
     height: 100%;
 }
