@@ -568,6 +568,19 @@ section.colored {
     background-color: #EF2D56;
 }
 
+.btn-color2 {
+    color: #fff;
+    border-color: #EF2D56;
+    background-color: #707070;
+}
+
+
+.btn-color2:hover, .btn-color2:active, .btn-color2:focus {
+    background-color: #606060;
+    border-color: #f25375;
+    color: #fff;
+}
+
 .btn-color:hover, .btn-color:active, .btn-color:focus {
     background-color: #f25375;
     border-color: #f25375;
