@@ -575,7 +575,7 @@ section.colored {
 }
 
 
-.btn-color2:hover, .btn-color2:active, .btn-color2:focus {
+.btn-color2:hover {
     background-color: #f5f5f5;
     border-color: #707070;
     color: #606060;
