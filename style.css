@@ -3794,7 +3794,12 @@ footer.dark p {
     #topnav.scroll {
         top: 0;
     }
-
+    
+    .resumebtn
+    {
+     text-align:center;
+    }
+  
     #topnav .navigation-menu > li.has-submenu > a:after {
         content: "\e64b";
         font-family: "themify";
@@ -3957,7 +3962,10 @@ footer.dark p {
     #text-rotator h1 {
         font-size: 60px;
     }
-
+   .resumebtn
+   {
+    text-align:center;
+   }
     #text-rotator h1.upper {
         font-size: 40px;
     }
@@ -4192,7 +4200,10 @@ footer.dark p {
     #works.two-col .work-item {
         width: 50%;
     }
-
+     .resumebtn
+     {
+      text-align:center;
+     }
     #works.three-col .work-item {
         width: 50%;
     }
@@ -4263,6 +4274,10 @@ footer.dark p {
         margin-right: 0;
     }
 
+    .resumebtn
+    {
+    text-align:center;
+    }
     .navbar-toggle {
         display: block;
     }
@@ -4288,7 +4303,11 @@ footer.dark p {
     #text-rotator h1.upper {
         font-size: 32px;
     }
-
+    
+    .resumebtn
+  {
+    text-align:center;
+  }
     section.splash .title h2 {
         font-size: 48px;
     }
