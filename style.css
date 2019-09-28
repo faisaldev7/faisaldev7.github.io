@@ -3734,6 +3734,10 @@ footer.dark p {
     padding-top: 50px;
 }
 
+.top-heading {
+     font-weight: 320!important;
+}
+
 .fw-400 {
     font-weight: 400!important;
 }
